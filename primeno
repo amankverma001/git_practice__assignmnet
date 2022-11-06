@@ -1,14 +1,13 @@
-let n=31;
 
-for(let i=0;i<n;i++)
-{
- factor++;
-}
-if(factor==2)
-{
-    console.log("Prime no";)
-}
-else
-{
+
+let n=31;
+let f_count=0;
+for(let i=1; i<=n; i++){
+    if(n%i==0){
+        f_count++;
+    }
+}if(f_count==2){
+    console.log("prime no");
+}else{
     console.log("not a prime no");
 }
