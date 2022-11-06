@@ -1,5 +1,6 @@
 
 
+
 let n=31;
 let f_count=0;
 for(let i=1; i<=n; i++){
@@ -9,5 +10,5 @@ for(let i=1; i<=n; i++){
 }if(f_count==2){
     console.log("prime no");
 }else{
-    console.log("not a prime no");
+   console.log("not a prime no");
 }
